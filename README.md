@@ -8,3 +8,6 @@ Spring MVC study
 
 
 📂/item-service -> 간단한 웹 페이지 만들기 실습
+
+
+📂/thymeleaf-basic -> Thymeleaf 기본 기능 공부
