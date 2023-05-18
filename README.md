@@ -11,3 +11,6 @@ Spring MVC study
 
 
 📂/thymeleaf-basic -> Thymeleaf 기본 기능 공부
+
+
+📂/form -> 기존 item-service에 Thymeleaf 적용 실습
