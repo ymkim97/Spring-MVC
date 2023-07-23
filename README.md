@@ -15,4 +15,6 @@ Spring MVC study
 
 📂/form -> 기존 item-service에 Thymeleaf 적용 실습
 
-📂/validation -> 검증 1 - Validatiob 공부
+📂/validation -> 검증 1,2 - Validation 공부
+
+📂/login -> - 로그인 처리 공부
