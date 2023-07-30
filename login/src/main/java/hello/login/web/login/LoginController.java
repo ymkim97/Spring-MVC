@@ -97,7 +97,7 @@ public class LoginController {
 
     @PostMapping("/login")
     public String loginV4(@Valid @ModelAttribute("loginForm") LoginForm form, BindingResult bindingResult,
-                          @RequestParam(defaultValue = "/") String redirectUrl,
+                          @RequestParam(defaultValue = "/") String requestURL,
                           HttpServletRequest request) {
 
         if (bindingResult.hasErrors()) {
@@ -115,7 +115,7 @@ public class LoginController {
         HttpSession session = request.getSession();
         session.setAttribute(SessionConst.LOGIN_MEMBER, loginMember);
 
-        return "redirect:" + redirectUrl;
+        return "redirect:" + requestURL;
     }
 
     //@PostMapping("/logout")
