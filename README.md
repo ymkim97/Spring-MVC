@@ -18,3 +18,5 @@ Spring MVC study
 📂/validation -> 검증 1,2 - Validation 공부
 
 📂/login -> - 로그인 처리 공부
+
+📂/exception -> - 예외 처리 공부
