@@ -1,13 +1,13 @@
-package hello.typeconverver;
+package hello.typeconverter;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TypeconververApplication {
+public class TypeconverterApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(TypeconververApplication.class, args);
+		SpringApplication.run(TypeconverterApplication.class, args);
 	}
 
 }
